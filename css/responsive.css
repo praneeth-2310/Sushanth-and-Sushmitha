@@ -1,0 +1,261 @@
+@media(max-width:992px){
+
+.heroContent h1{
+
+    font-size:72px;
+
+}
+
+.subtitle{
+
+    font-size:16px;
+
+}
+
+.date{
+
+    font-size:24px;
+
+}
+
+}
+
+
+@media(max-width:768px){
+
+.hero{
+
+    height:100vh;
+
+}
+
+.heroContent h1{
+
+    font-size:50px;
+
+}
+
+.subtitle{
+
+    font-size:13px;
+
+    letter-spacing:4px;
+
+}
+
+.amp{
+
+    font-size:32px;
+
+}
+
+.date{
+
+    font-size:18px;
+
+}
+
+.temple{
+
+    width:180%;
+
+}
+
+}
+
+
+@media(max-width:480px){
+
+.heroContent h1{
+
+    font-size:42px;
+
+}
+
+.subtitle{
+
+    font-size:11px;
+
+}
+
+.date{
+
+    font-size:16px;
+
+}
+
+}
+/* =======================================================
+   Large Screens
+======================================================= */
+
+@media (max-width:1400px){
+
+    .cloudLeft,
+    .cloudRight{
+
+        width:30vw;
+
+    }
+
+}
+
+/* =======================================================
+   Laptops
+======================================================= */
+
+@media (max-width:1200px){
+
+    .cloudLeft{
+
+        width:34vw;
+
+        left:-8vw;
+
+    }
+
+    .cloudRight{
+
+        width:34vw;
+
+        right:-8vw;
+
+    }
+
+}
+
+/* =======================================================
+   Tablets
+======================================================= */
+
+@media (max-width:992px){
+
+    .cloudLeft{
+
+        width:42vw;
+
+        left:-12vw;
+
+        top:-2vh;
+
+    }
+
+    .cloudRight{
+
+        width:42vw;
+
+        right:-12vw;
+
+        top:-2vh;
+
+    }
+
+}
+
+/* =======================================================
+   Mobiles
+======================================================= */
+
+@media (max-width:768px){
+
+    .cloudLeft{
+
+        width:55vw;
+
+        left:-20vw;
+
+        top:-1vh;
+
+    }
+
+    .cloudRight{
+
+        width:55vw;
+
+        right:-20vw;
+
+        top:-1vh;
+
+    }
+
+}
+
+/* =======================================================
+   Small Mobiles
+======================================================= */
+
+@media (max-width:480px){
+
+    .cloudLeft{
+
+        width:70vw;
+
+        left:-28vw;
+
+    }
+
+    .cloudRight{
+
+        width:70vw;
+
+        right:-28vw;
+
+    }
+
+}
+
+/* ================================
+   Temple Cloud
+================================ */
+
+@media (max-width:1200px){
+
+    .templeCloud{
+
+        width:34vw;
+
+        right:-10vw;
+
+    }
+
+}
+
+@media (max-width:992px){
+
+    .templeCloud{
+
+        width:42vw;
+
+        right:-14vw;
+
+        top:2%;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .templeCloud{
+
+        width:55vw;
+
+        right:-22vw;
+
+        top:1%;
+
+    }
+
+}
+
+@media (max-width:480px){
+
+    .templeCloud{
+
+        width:70vw;
+
+        right:-30vw;
+
+    }
+
+}

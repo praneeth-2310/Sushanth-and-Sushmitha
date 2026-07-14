@@ -1,0 +1,339 @@
+/* ==========================================================
+                    INVITATION
+========================================================== */
+
+.invitation{
+
+    width:100%;
+
+    position:relative;
+
+    margin:0;
+
+    padding:0;
+
+    overflow:hidden;
+
+    background:transparent;
+
+}
+
+
+/* ==========================================================
+                    WRAPPER
+========================================================== */
+
+.invitationWrapper{
+
+    width:100%;
+
+    position:relative;
+
+}
+
+
+/* ==========================================================
+                    IMAGE
+========================================================== */
+
+.invitationImage{
+
+    width:100%;
+
+    display:block;
+
+    height:auto;
+
+    user-select:none;
+
+    pointer-events:none;
+
+}
+
+
+/* ==========================================================
+                    CONTENT
+========================================================== */
+
+.invitationContent{
+
+    position:absolute;
+
+    top:11%;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:49%;
+
+    height:86%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+
+/* ==========================================================
+                    GANESH
+========================================================== */
+
+.ganeshIcon{
+
+    width:170px;
+
+    height:auto;
+
+    margin-top:18px;
+
+    margin-bottom:24px;
+
+}
+
+
+/* ==========================================================
+                    GANESH MANTRA
+========================================================== */
+
+.ganeshMantra{
+
+    margin-bottom:18px;
+
+}
+
+.ganeshMantra p{
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    color:#6A3513;
+
+    font-weight:500;
+
+}
+
+
+/* ==========================================================
+                MANGALA VAAKYAM
+========================================================== */
+
+.mangalaVakya{
+
+    font-size:28px;
+
+    color:#7B3F00;
+
+    font-weight:600;
+
+    margin-bottom:34px;
+
+}
+
+
+/* ==========================================================
+                INVITATION HEADING
+========================================================== */
+
+.inviteHeading{
+
+    font-size:54px;
+
+    color:#8B4513;
+
+    font-weight:600;
+
+    margin-bottom:28px;
+
+}
+
+
+/* ==========================================================
+                COUPLE
+========================================================== */
+
+.coupleNames{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:48px;
+
+}
+
+.coupleNames h1{
+
+    font-size:72px;
+
+    color:#8B4513;
+
+    font-weight:600;
+
+    line-height:1;
+
+}
+
+.coupleNames span{
+
+    font-size:42px;
+
+    color:#C89B3C;
+
+}
+
+
+/* ==========================================================
+                INVITATION BLOCK
+========================================================== */
+
+.inviteBlock{
+
+    width:100%;
+
+    margin-bottom:42px;
+
+}
+
+
+/* ==========================================================
+                BLOCK HEADING
+========================================================== */
+
+.inviteBlock h3{
+
+    font-size:31px;
+
+    color:#8B4513;
+
+    font-weight:600;
+
+    letter-spacing:3px;
+
+    margin-bottom:8px;
+
+}
+
+
+/* ==========================================================
+                TELUGU HEADING
+========================================================== */
+
+.teluguHeading{
+
+    font-size:28px;
+
+    color:#7A4A24;
+
+    font-weight:600;
+
+    margin-bottom:18px;
+
+}
+
+
+/* ==========================================================
+                ENGLISH
+========================================================== */
+
+.englishText{
+
+    font-size:26px;
+
+    color:#402714;
+
+    line-height:1.7;
+
+}
+
+
+/* ==========================================================
+                TELUGU
+========================================================== */
+
+.teluguText{
+
+    font-size:28px;
+
+    color:#6A3513;
+
+    line-height:1.8;
+
+    margin-top:8px;
+
+}
+
+
+/* ==========================================================
+                ENGLISH MESSAGE
+========================================================== */
+
+.englishMessage{
+
+    font-size:26px;
+
+    line-height:1.7;
+
+    color:#402714;
+
+    margin-bottom:16px;
+
+}
+
+
+/* ==========================================================
+                TELUGU MESSAGE
+========================================================== */
+
+.teluguMessage{
+
+    font-size:28px;
+
+    line-height:1.85;
+
+    color:#6A3513;
+
+}
+
+
+/* ==========================================================
+                VENUE
+========================================================== */
+
+.venueBlock{
+
+    margin-bottom:0;
+
+}
+
+.venueEnglish{
+
+    font-size:28px;
+
+    font-weight:600;
+
+    color:#402714;
+
+    margin-bottom:12px;
+
+}
+
+.venueTelugu{
+
+    font-size:28px;
+
+    line-height:1.8;
+
+    color:#6A3513;
+
+}

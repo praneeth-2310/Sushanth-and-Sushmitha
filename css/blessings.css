@@ -1,0 +1,63 @@
+.blessings{
+
+    width:100%;
+
+    position:relative;
+
+    overflow:hidden;
+
+    background:transparent;
+
+}
+
+.blessingContainer{
+
+    width:100%;
+
+    position:relative;
+
+}
+
+.blessingImage{
+
+    display:block;
+
+    width:100%;
+
+    height:auto;
+
+}
+
+.blessingStatement{
+
+    width:100%;
+
+    background:#3A2415;
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:28px 30px;
+
+}
+
+.blessingStatement p{
+
+    max-width:1400px;
+
+    text-align:center;
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-size:clamp(1.3rem,2vw,2.2rem);
+
+    font-weight:600;
+
+    line-height:1.5;
+
+}

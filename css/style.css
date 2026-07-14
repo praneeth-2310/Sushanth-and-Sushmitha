@@ -1,0 +1,101 @@
+/* =======================================
+
+ROOT VARIABLES
+
+======================================= */
+
+:root{
+
+    --sky:#0072F8;
+
+    --gold:#FFD166;
+
+    --white:#ffffff;
+
+}
+
+/* =======================================
+
+BODY
+
+======================================= */
+
+body{
+
+    font-family:"Cormorant Garamond", serif;
+
+    background:var(--sky);
+
+    color:white;
+
+}
+
+/* =======================================
+
+COMMON SECTION SETTINGS
+
+======================================= */
+
+section{
+
+    position:relative;
+
+    width:100%;
+
+}
+
+/* =======================================
+
+HERO
+
+======================================= */
+
+.hero{
+
+    background:var(--sky);
+
+    overflow:visible;
+
+}
+
+/* =======================================
+
+TEMPLE
+
+======================================= */
+
+.templeSection{
+
+    background:var(--sky);
+
+}
+
+/* =======================================
+
+INVITATION
+
+======================================= */
+
+.invitation{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:white;
+
+    color:#222;
+
+}
+
+.invitation h1{
+
+    font-size:60px;
+
+    font-weight:600;
+
+}
