@@ -1,252 +1,12 @@
 /* ==========================================================
-        RESPONSIVE.CSS
-        MASTER VIEWPORT = 1536 × 730
-        (NO RULES FOR MASTER)
-==========================================================*/
-
-
-/* ==========================================================
-        DESKTOP
-        1600px – 1919px
-==========================================================*/
-
-@media screen and (min-width:1600px) and (max-width:1919px){
-
-    /* Temple slightly wider */
-
-    .temple{
-
-        width:132vw;
-
-    }
-
-    /* Temple cloud */
-
-    .templeCloud{
-
-        width:24vw;
-
-        top:2.5%;
-
-        right:-7%;
-
-    }
-
-    /* Soft Blend */
-
-    .templeSection::before{
-
-        top:-165px;
-
-        height:250px;
-
-    }
-
-}
-
-
-/* ==========================================================
-        LARGE DESKTOP
-        1920px – 2559px
-==========================================================*/
-
-@media screen and (min-width:1920px) and (max-width:2559px){
-
-    /* Temple */
-
-    .temple{
-
-        width:126vw;
-
-        bottom:-2vh;
-
-    }
-
-    /* Sticky */
-
-    .stickyTemple{
-
-        height:320vh;
-
-    }
-
-    /* Temple Section */
-
-    .templeSection{
-
-        min-height:360vh;
-
-    }
-
-    /* Temple Cloud */
-
-    .templeCloud{
-
-        width:20vw;
-
-        top:2%;
-
-        right:-5%;
-
-    }
-
-    /* Soft Blend */
-
-    .templeSection::before{
-
-        top:-190px;
-
-        height:290px;
-
-    }
-
-}
-
-
-/* ==========================================================
-        ULTRA WIDE / 4K
-==========================================================*/
-
-@media screen and (min-width:2560px){
-
-    .temple{
-
-        width:118vw;
-
-    }
-
-    .stickyTemple{
-
-        height:340vh;
-
-    }
-
-    .templeSection{
-
-        min-height:380vh;
-
-    }
-
-    .templeCloud{
-
-        width:18vw;
-
-    }
-
-    .templeSection::before{
-
-        top:-220px;
-
-        height:330px;
-
-    }
-
-}
-
-
-
-/* ==========================================================
         1516px
-        (20px smaller than MASTER)
 ==========================================================*/
 
 @media screen and (max-width:1516px){
 
-    /* ==========================
-            HERO
-    ========================== */
-
-    .hero{
-
-        height:55vh;
-
-    }
-
-    .cloudLeft{
-
-        left:-6.2vw;
-
-    }
-
-    .cloudRight{
-
-        right:-6.2vw;
-
-    }
-
-
-    /* ==========================
-            TEMPLE
-    ========================== */
-
-    .temple{
-
-        width:135.2vw;
-
-        bottom:65vh;
-
-    }
-
-    .stickyTemple{
-
-        height:352vh;
-
-    }
-
-    .templeSection{
-
-        min-height:352vh;
-
-    }
-
-
-    /* ==========================
-            SOFT BLEND
-    ========================== */
-
-    .templeSection::before{
-
-        top:-182px;
-
-        height:250px;
-
-    }
-
-
-    /* ==========================
-            TEMPLE CLOUD
-    ========================== */
-
-    .templeCloud{
-
-        width:27vw;
-
-        right:-6.5%;
-
-        top:2.2%;
-
-    }
-
-}
-
-/* ==========================================================
-        1436px
-        (100px smaller than MASTER)
-==========================================================*/
-
-@media screen and (max-width:1436px){
-
-    /* --------------------------------------------------
-       HERO
-       -------------------------------------------------- */
-
-    .hero{
-
-        height:55vh;
-
-    }
-
-    /* Keep hero composition unchanged */
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
 
     .cloudLeft{
 
@@ -260,751 +20,30 @@
 
     }
 
-    /* --------------------------------------------------
-       TEMPLE
-       -------------------------------------------------- */
-
     .temple{
-
-        /* Very small scale increase */
-
-        width:136vw;
-
-        /* Lift temple slightly so the top stays aligned */
-
-        bottom:30vh;
-
-    }
-
-    /* Storytelling section */
-
-    .stickyTemple{
-
-        height:305vh;
-
-    }
-
-    .templeSection{
-
-        min-height:305vh;
-
-    }
-
-    /* --------------------------------------------------
-       SOFT BLEND
-       -------------------------------------------------- */
-
-    .templeSection::before{
-
-        /* Keep almost identical to master */
-
-        top:-125px;
-
-        height:195px;
-
-    }
-
-    /* --------------------------------------------------
-       TEMPLE CLOUD
-       -------------------------------------------------- */
-
-    .templeCloud{
-
-        width:28vw;
-
-        top:2.5%;
-
-        right:-7%;
-
-    }
-
-}
-
-/* ==========================================================
-        1336px
-==========================================================*/
-
-@media screen and (max-width:1336px){
-
-    /* ==================================================
-                    HERO
-    ================================================== */
-
-    .hero{
-
-        height:55vh;
-
-    }
-
-    .cloudLeft{
-
-        left:-6.8vw;
-
-    }
-
-    .cloudRight{
-
-        right:-6.8vw;
-
-    }
-
-
-    /* ==================================================
-                    TEMPLE
-    ================================================== */
-
-    .temple{
-
-        width:137vw;
-
-        bottom:47vh;
-
-    }
-
-
-    /* ==================================================
-                STORYTELLING HEIGHT
-    ================================================== */
-
-    .stickyTemple{
-
-        height:305vh;
-
-    }
-
-    .templeSection{
-
-        min-height:305vh;
-
-    }
-
-
-    /* ==================================================
-                    SOFT BLEND
-    ================================================== */
-
-    .templeSection::before{
-
-        top:-128px;
-
-        height:198px;
-
-    }
-
-
-    /* ==================================================
-                TEMPLE CLOUD
-    ================================================== */
-
-    .templeCloud{
-
-        width:29vw;
-
-        top:2.5%;
-
-        right:-8%;
-
-    }
-
-}
-
-/* ==========================================================
-        1236px
-==========================================================*/
-
-@media screen and (max-width:1236px){
-
-    /* ==================================================
-                    HERO
-    ================================================== */
-
-    .hero{
-
-        height:55vh;
-
-    }
-
-    .cloudLeft{
-
-        left:-7.5vw;
-
-    }
-
-    .cloudRight{
-
-        right:-7.5vw;
-
-    }
-
-
-    /* ==================================================
-                    TEMPLE
-    ================================================== */
-
-    .temple{
-
-        width:135vw;
-
-        bottom:45vh;
-
-    }
-
-
-    /* ==================================================
-                STORYTELLING HEIGHT
-    ================================================== */
-
-    .stickyTemple{
-
-        height:305vh;
-
-        transform:translateY(-25vh);
-
-    }
-
-    .templeSection{
-
-        min-height:305vh;
-
-    }
-
-
-    /* ==================================================
-                    SOFT BLEND
-    ================================================== */
-
-    .templeSection::before{
-
-        top:-132px;
-
-        height:205px;
-
-    }
-
-
-    /* ==================================================
-                TEMPLE CLOUD
-    ================================================== */
-
-    .templeCloud{
-
-        width:30vw;
-
-        top:12%;
-
-        right:-8.5%;
-
-    }
-
-}
-/* ==========================================================
-        1136px
-        Preserve Temple + Side Trees
-==========================================================*/
-
-@media screen and (max-width:1136px){
-
-    /* ==================================================
-                    HERO
-    ================================================== */
-
-    .hero{
-
-        height:55vh;
-
-    }
-
-    .cloudLeft{
-
-        left:-8vw;
-
-    }
-
-    .cloudRight{
-
-        right:-8vw;
-
-    }
-
-
-    /* ==================================================
-                    TEMPLE
-    ================================================== */
-
-    .temple{
-
-        /*
-        Slightly zoom out from 1236
-        to reveal both side trees
-        */
-
-        width:137vw;
-
-        /*
-        Raise temple to preserve
-        storytelling composition
-        */
-
-        bottom:60vh;
-
-    }
-
-
-    /* ==================================================
-                STORYTELLING
-    ================================================== */
-
-    .stickyTemple{
-
-        height:305vh;
-
-    }
-
-    .templeSection{
-
-        min-height:305vh;
-
-    }
-
-
-    /* ==================================================
-                    SOFT BLEND
-    ================================================== */
-
-    .templeSection::before{
-
-        top:-126px;
-
-        height:196px;
-
-    }
-
-
-    /* ==================================================
-                TEMPLE CLOUD
-    ================================================== */
-
-    .templeCloud{
-
-        width:29vw;
-
-        right:-7.5%;
-
-        top:12%;
-
-    }
-
-}
-
-/* ==========================================================
-        1024px
-        Tablet Landscape
-==========================================================*/
-
-@media screen and (max-width:1024px){
-
-    /* ================= HERO ================= */
-
-    .hero{
-
-        height:55vh;
-
-    }
-
-    .cloudLeft{
-
-        left:-9vw;
-
-    }
-
-    .cloudRight{
-
-        right:-9vw;
-
-    }
-
-    /* ================= TEMPLE ================= */
-
-    .temple{
-
-        /* Slight zoom-out to preserve side trees */
-
-        width:136vw;
 
         bottom:70vh;
 
     }
 
-    /* ================= STORY ================= */
-
-    .stickyTemple{
-
-        height:300vh;
-
-        transform:translateY(-35vh);
-
-    }
-
-    .templeSection{
-
-        min-height:300vh;
-
-    }
-
-    /* ================= SOFT BLEND ================= */
-
-    .templeSection::before{
-
-        top:-140px;
-
-        height:190px;
-
-    }
-
-    /* ================= TEMPLE CLOUD ================= */
-
     .templeCloud{
 
-        width:30vw;
+        width:27vw;
 
-        top:15%;
+        right:-6.5%;
 
-        right:-8%;
-
-    }
-
-}
-
-/* ==========================================================
-        900px
-==========================================================*/
-
-@media screen and (max-width:900px){
-
-    /* ================= HERO ================= */
-
-    .hero{
-
-        height:50vh;
+        top:2%;
 
     }
 
-    .cloudLeft{
 
-        left:-10vw;
-
-    }
-
-    .cloudRight{
-
-        right:-10vw;
-
-    }
-
-    /* ================= TEMPLE ================= */
-
-    .temple{
-
-        /* Preserve temple with slight tree visibility */
-
-        width:135vw;
-
-        bottom:85vh;
-
-    }
-
-    /* ================= STORY ================= */
-
-    .stickyTemple{
-
-        height:295vh;
-
-        transform:translateY(-40vh);
-
-    }
-
-    .templeSection{
-
-        min-height:295vh;
-
-    }
-
-    /* ================= SOFT BLEND ================= */
-
-    .templeSection::before{
-
-        top:-155px;
-
-        height:205px;
-
-    }
-
-    /* ================= TEMPLE CLOUD ================= */
-
-    .templeCloud{
-
-        width:31vw;
-
-        top:18%;
-
-        right:-8.5%;
-
-    }
-
-}
-
-/* ==========================================================
-        768px
-        Tablet Portrait
-==========================================================*/
-
-@media screen and (max-width:768px){
-
-    /* ================= HERO ================= */
-
-    .hero{
-
-        height:50vh;
-
-    }
-
-    .cloudLeft{
-
-        left:-11vw;
-
-    }
-
-    .cloudRight{
-
-        right:-11vw;
-
-    }
-
-    /* ================= TEMPLE ================= */
-
-    .temple{
-
-        /* Preserve temple + side trees */
-
-        width:134vw;
-
-        bottom:105vh;
-
-    }
-
-    /* ================= STORY ================= */
-
-    .stickyTemple{
-
-        height:290vh;
-
-        transform:translateY(-40vh);
-
-    }
-
-    .templeSection{
-
-        min-height:290vh;
-
-    }
-
-    /* ================= SOFT BLEND ================= */
-
-    .templeSection::before{
-
-        top:-170px;
-
-        height:220px;
-
-    }
-
-    /* ================= TEMPLE CLOUD ================= */
-
-    .templeCloud{
-
-        width:32vw;
-
-        top:18%;
-
-        right:-9%;
-
-    }
-
-}
-
-/* ==========================================================
-        576px
-        Large Mobile
-==========================================================*/
-
-@media screen and (max-width:576px){
-
-    /* ================= HERO ================= */
-
-    .hero{
-
-        height:55vh;
-
-    }
-
-    .cloudLeft{
-
-        left:-12vw;
-
-    }
-
-    .cloudRight{
-
-        right:-12vw;
-
-    }
-
-    /* ================= TEMPLE ================= */
-
-    .temple{
-
-        /*
-        Keep temple dominant,
-        preserve slight tree visibility
-        */
-
-        width:133vw;
-
-        bottom:125vh;
-
-    }
-
-    /* ================= STORY ================= */
-
-    .stickyTemple{
-
-        height:285vh;
-
-        transform:translateY(-50vh);
-
-    }
-
-    .templeSection{
-
-        min-height:285vh;
-
-    }
-
-    /* ================= SOFT BLEND ================= */
-
-    .templeSection::before{
-
-        top:-185px;
-
-        height:235px;
-
-    }
-
-    /* ================= TEMPLE CLOUD ================= */
-
-    .templeCloud{
-
-        width:34vw;
-
-        top:22%;
-
-        right:-10%;
-
-    }
-
-}
-/* ==========================================================
-        425px
-        Mobile
-==========================================================*/
-
-@media screen and (max-width:500px){
-
-    /* ================= HERO ================= */
-
-    .hero{
-
-        height:65vh;
-
-    }
-
-    .cloudLeft{
-
-        left:-14vw;
-
-    }
-
-    .cloudRight{
-
-        right:-14vw;
-
-    }
-
-    /* ================= TEMPLE ================= */
-
-    .temple{
-
-        /*
-        Slightly zoom out to preserve
-        the side trees on mobile
-        */
-
-        width:132vw;
-
-        bottom:145vh;
-
-    }
-
-    /* ================= STORY ================= */
-
-    .stickyTemple{
-
-        height:280vh;
-
-        transform:translateY(-50vh);
-
-    }
-
-    .templeSection{
-
-        min-height:280vh;
-
-    }
-
-    /* ================= SOFT BLEND ================= */
-
-    .templeSection::before{
-
-        top:-200px;
-
-        height:160px;
-
-    }
-
-    /* ================= TEMPLE CLOUD ================= */
-
-    .templeCloud{
-
-        width:36vw;
-
-        top:20%;
-
-        right:-11%;
-
-    }
-
-}
-
-/* ==========================================================
-        BLESSINGS
-        1516px
-==========================================================*/
-
-@media screen and (max-width:1516px){
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
 
     .blessings{
 
-        margin-top:-65vh;
+        margin-top:-20vh;
 
     }
 
@@ -1016,228 +55,10 @@
 
     }
 
-}
 
-
-/* ==========================================================
-        BLESSINGS
-        1436px
-==========================================================*/
-
-@media screen and (max-width:1436px){
-
-    .blessings{
-
-        margin-top:-30vh;
-
-    }
-
-    .blessingText{
-
-        bottom:2.4%;
-
-        font-size:clamp(1.3rem,1.9vw,2.2rem);
-
-    }
-
-}
-
-
-/* ==========================================================
-        BLESSINGS
-        1336px
-==========================================================*/
-
-@media screen and (max-width:1336px){
-
-    .blessings{
-
-        margin-top:-50vh;
-
-    }
-
-    .blessingText{
-
-        bottom:2.6%;
-
-        font-size:clamp(1.25rem,1.85vw,2.05rem);
-
-    }
-
-}
-
-
-/* ==========================================================
-        BLESSINGS
-        1236px
-==========================================================*/
-
-@media screen and (max-width:1236px){
-
-    .blessings{
-
-        margin-top:-70vh;
-
-    }
-
-    .blessingText{
-
-        bottom:2.8%;
-
-        font-size:clamp(1.18rem,1.8vw,1.95rem);
-
-    }
-
-}
-
-
-/* ==========================================================
-        BLESSINGS
-        1136px
-==========================================================*/
-
-@media screen and (max-width:1136px){
-
-    .blessings{
-
-        margin-top:-85vh;
-
-    }
-
-    .blessingText{
-
-        bottom:3%;
-
-        font-size:clamp(1.1rem,1.7vw,1.8rem);
-
-    }
-
-}
-
-@media screen and (max-width:1024px){
-
-    .blessings{
-
-        margin-top:-105vh;
-
-    }
-
-    .blessingText{
-
-        bottom:3.5%;
-
-        font-size:1.4rem;
-
-    }
-
-}
-/* ==========================================================
-        BLESSINGS
-        900px
-==========================================================*/
-
-@media screen and (max-width:900px){
-
-    .blessings{
-
-        margin-top:-125vh;
-
-    }
-
-    .blessingText{
-
-        bottom:3.5%;
-
-        font-size:1.4rem;
-
-    }
-
-}
-
-
-/* ==========================================================
-        BLESSINGS
-        768px
-==========================================================*/
-
-@media screen and (max-width:768px){
-
-    .blessings{
-
-        margin-top:-145vh;
-
-    }
-
-    .blessingText{
-
-        bottom:4%;
-
-        font-size:1.2rem;
-
-        padding:0 18px;
-
-    }
-
-}
-
-
-/* ==========================================================
-        BLESSINGS
-        575px
-==========================================================*/
-
-@media screen and (max-width:576px){
-
-    .blessings{
-
-        margin-top:-175vh;
-
-    }
-
-    .blessingText{
-
-        bottom:5%;
-
-        font-size:1rem;
-
-        padding:0 22px;
-
-    }
-
-}
-
-
-/* ==========================================================
-        BLESSINGS
-        500px
-==========================================================*/
-
-@media screen and (max-width:500px){
-
-    .blessings{
-
-        margin-top:-195vh;
-
-    }
-
-    .blessingText{
-
-        bottom:5.5%;
-
-        font-size:.9rem;
-
-        padding:0 18px;
-
-    }
-
-}
-
-/* ==========================================================
-        INVITATION
-        1516px
-==========================================================*/
-
-@media screen and (max-width:1516px){
+    /* ==================================================
+                    INVITATION
+    ================================================== */
 
     .invitationContent{
 
@@ -1359,11 +180,66 @@
 
 
 /* ==========================================================
-        INVITATION
         1436px
 ==========================================================*/
 
 @media screen and (max-width:1436px){
+
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
+
+    .cloudLeft{
+
+        left:-6.5vw;
+
+    }
+
+    .cloudRight{
+
+        right:-6.5vw;
+
+    }
+
+    .temple{
+
+        bottom:90vh;
+
+    }
+
+    .templeCloud{
+
+        width:28vw;
+
+        right:-7%;
+
+        top:2.5%;
+
+    }
+
+
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
+
+    .blessings{
+
+        margin-top:-40vh;
+
+    }
+
+    .blessingText{
+
+        bottom:2.4%;
+
+        font-size:clamp(1.30rem,1.90vw,2.20rem);
+
+    }
+
+
+    /* ==================================================
+                    INVITATION
+    ================================================== */
 
     .invitationContent{
 
@@ -1388,6 +264,8 @@
     .ganeshMantra p{
 
         font-size:20px;
+
+        line-height:1.7;
 
     }
 
@@ -1480,12 +358,68 @@
     }
 
 }
+
 /* ==========================================================
-        INVITATION
         1336px
 ==========================================================*/
 
 @media screen and (max-width:1336px){
+
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
+
+    .cloudLeft{
+
+        left:-7vw;
+
+    }
+
+    .cloudRight{
+
+        right:-7vw;
+
+    }
+
+    .temple{
+
+        bottom:105vh;
+
+    }
+
+    .templeCloud{
+
+        width:29vw;
+
+        right:-8%;
+
+        top:3%;
+
+    }
+
+
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
+
+    .blessings{
+
+        margin-top:-60vh;
+
+    }
+
+    .blessingText{
+
+        bottom:2.6%;
+
+        font-size:clamp(1.25rem,1.85vw,2.05rem);
+
+    }
+
+
+    /* ==================================================
+                    INVITATION
+    ================================================== */
 
     .invitationContent{
 
@@ -1511,7 +445,7 @@
 
         font-size:19px;
 
-        line-height:1.75;
+        line-height:1.7;
 
     }
 
@@ -1609,11 +543,66 @@
 
 
 /* ==========================================================
-        INVITATION
         1236px
 ==========================================================*/
 
 @media screen and (max-width:1236px){
+
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
+
+    .cloudLeft{
+
+        left:-7.5vw;
+
+    }
+
+    .cloudRight{
+
+        right:-7.5vw;
+
+    }
+
+    .temple{
+
+        bottom:125vh;
+
+    }
+
+    .templeCloud{
+
+        width:30vw;
+
+        right:-8.5%;
+
+        top:4%;
+
+    }
+
+
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
+
+    .blessings{
+
+        margin-top:-80vh;
+
+    }
+
+    .blessingText{
+
+        bottom:2.8%;
+
+        font-size:clamp(1.18rem,1.8vw,1.95rem);
+
+    }
+
+
+    /* ==================================================
+                    INVITATION
+    ================================================== */
 
     .invitationContent{
 
@@ -1639,7 +628,7 @@
 
         font-size:18px;
 
-        line-height:1.7;
+        line-height:1.65;
 
     }
 
@@ -1734,12 +723,68 @@
     }
 
 }
+
 /* ==========================================================
-        INVITATION
         1136px
 ==========================================================*/
 
 @media screen and (max-width:1136px){
+
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
+
+    .cloudLeft{
+
+        left:-8vw;
+
+    }
+
+    .cloudRight{
+
+        right:-8vw;
+
+    }
+
+    .temple{
+
+        bottom:140vh;
+
+    }
+
+    .templeCloud{
+
+        width:30vw;
+
+        right:-8%;
+
+        top:6%;
+
+    }
+
+
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
+
+    .blessings{
+
+        margin-top:-90vh;
+
+    }
+
+    .blessingText{
+
+        bottom:3%;
+
+        font-size:clamp(1.1rem,1.7vw,1.8rem);
+
+    }
+
+
+    /* ==================================================
+                    INVITATION
+    ================================================== */
 
     .invitationContent{
 
@@ -1765,7 +810,7 @@
 
         font-size:17px;
 
-        line-height:1.7;
+        line-height:1.65;
 
     }
 
@@ -1861,156 +906,457 @@
 
 }
 
-
 /* ==========================================================
-        INVITATION
         1024px
+        Tablet Landscape
 ==========================================================*/
 
 @media screen and (max-width:1024px){
 
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
+
+    .cloudLeft{
+
+        left:-9vw;
+
+    }
+
+    .cloudRight{
+
+        right:-9vw;
+
+    }
+
+    .temple{
+
+        bottom: 165vh;
+
+    }
+
+    .templeCloud{
+
+        width:31vw;
+
+        right:-8.5%;
+
+        top:8%;
+
+    }
+
+
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
+
+    .blessings{
+
+        margin-top:-115vh;
+
+    }
+
+    .blessingText{
+
+        bottom:3.5%;
+
+        font-size:1.4rem;
+
+    }
+
+
+    /* ==================================================
+                    INVITATION
+    ================================================== */
+
     .invitationContent{
 
-    top:11%;
+        top:11%;
 
-    width:60%;
+        width:60%;
 
-    height:91%;
+        height:91%;
 
-}
+    }
 
-/* ================= GANESH ================= */
+    .ganeshIcon{
 
-.ganeshIcon{
+        width:126px;
 
-    width:126px;
+    }
 
-}
+    .ganeshMantra p{
 
-/* ================= MANTRA ================= */
+        font-size:15px;
 
-.ganeshMantra p{
+        line-height:1.6;
 
-    font-size:15px;
+    }
 
-    line-height:1.6;
+    .mangalaVakya{
 
-}
+        font-size:18px;
 
-.mangalaVakya{
+        margin-bottom:20px;
 
-    font-size:18px;
+    }
 
-    margin-bottom:20px;
+    .inviteHeading{
 
-}
+        font-size:34px;
 
-/* ================= HEADING ================= */
+        margin-bottom:16px;
 
-.inviteHeading{
+    }
 
-    font-size:34px;
+    .coupleNames{
 
-    margin-bottom:16px;
+        margin-bottom:24px;
 
-}
+    }
 
-/* ================= COUPLE ================= */
+    .coupleNames h1{
 
-.coupleNames{
+        font-size:45px;
 
-    margin-bottom:24px;
+    }
 
-}
+    .coupleNames span{
 
-.coupleNames h1{
+        font-size:28px;
 
-    font-size:45px;
+    }
 
-}
+    .inviteBlock{
 
-.coupleNames span{
+        margin-bottom:18px;
 
-    font-size:28px;
+    }
 
-}
+    .inviteBlock h3{
 
-/* ================= BLOCK ================= */
+        font-size:18px;
 
-.inviteBlock{
+    }
 
-    margin-bottom:18px;
+    .teluguHeading{
 
-}
+        font-size:18px;
 
-.inviteBlock h3{
+        margin-bottom:12px;
 
-    font-size:18px;
+    }
 
-}
+    .englishText{
 
-.teluguHeading{
+        font-size:16px;
 
-    font-size:18px;
+    }
 
-    margin-bottom:12px;
+    .englishMessage{
 
-}
+        font-size:16px;
 
-/* ================= ENGLISH ================= */
+    }
 
-.englishText{
+    .teluguText{
 
-    font-size:16px;
+        font-size:18px;
 
-}
+    }
 
-.englishMessage{
+    .teluguMessage{
 
-    font-size:16px;
+        font-size:18px;
 
-}
+        line-height:1.6;
 
-/* ================= TELUGU ================= */
+    }
 
-.teluguText{
+    .venueEnglish{
 
-    font-size:18px;
+        font-size:18px;
 
-}
+    }
 
-.teluguMessage{
+    .venueTelugu{
 
-    font-size:18px;
+        font-size:18px;
 
-    line-height:1.6;
+        line-height:1.6;
 
-}
-
-/* ================= VENUE ================= */
-
-.venueEnglish{
-
-    font-size:18px;
-
-}
-
-.venueTelugu{
-
-    font-size:18px;
-
-    line-height:1.6;
-
-}
+    }
 
 }
 
 /* ==========================================================
-        INVITATION
         900px
+        TABLET LANDSCAPE
 ==========================================================*/
 
-@media screen and (max-width:900px){
+@media screen and (max-width:900px) and (orientation:landscape){
+
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
+
+    .cloudLeft{
+
+        left:-10vw;
+
+    }
+
+    .cloudRight{
+
+        right:-10vw;
+
+    }
+
+    .temple{
+
+        bottom:185vh;
+
+    }
+
+    .templeCloud{
+
+        width:31vw;
+
+        top:14%;
+
+        right:-8.5%;
+
+    }
+
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
+
+    .blessings{
+
+        margin-top:-135vh;
+
+    }
+
+    .blessingText{
+
+        bottom:3.5%;
+
+        font-size:1.35rem;
+
+        padding:0 18px;
+
+    }
+
+    /* ==================================================
+                    INVITATION
+    ================================================== */
+
+    .invitationContent{
+
+        top:9.5%;
+
+        width:62%;
+
+        height:91%;
+
+    }
+
+    /* ================= GANESH ================= */
+
+    .ganeshIcon{
+
+        width:122px;
+
+        margin-top:22px;
+
+        margin-bottom:14px;
+
+    }
+
+    /* ================= MANTRA ================= */
+
+    .ganeshMantra p{
+
+        font-size:15px;
+
+        line-height:1.4;
+
+    }
+
+    .mangalaVakya{
+
+        font-size:18px;
+
+        margin-bottom:18px;
+
+    }
+
+    /* ================= INVITATION ================= */
+
+    .inviteHeading{
+
+        font-size:30px;
+
+        margin-bottom:14px;
+
+    }
+
+    /* ================= COUPLE ================= */
+
+    .coupleNames{
+
+        margin-bottom:22px;
+        gap: 1px;
+
+    }
+
+    .coupleNames h1{
+
+        font-size:43px;
+
+    }
+
+    .coupleNames span{
+
+        font-size:25px;
+
+    }
+
+    /* ================= BLOCK ================= */
+
+    .inviteBlock{
+
+        margin-bottom:16px;
+
+    }
+
+    .inviteBlock h3{
+
+        font-size:18px;
+
+        letter-spacing:2px;
+
+    }
+
+    .teluguHeading{
+
+        font-size:18px;
+
+        margin-bottom:10px;
+
+    }
+
+    /* ================= ENGLISH ================= */
+
+    .englishText{
+
+        font-size:16px;
+
+    }
+
+    .englishMessage{
+
+        font-size:16px;
+
+    }
+
+    /* ================= TELUGU ================= */
+
+    .teluguText{
+
+        font-size:18px;
+
+    }
+
+    .teluguMessage{
+
+        font-size:18px;
+
+        line-height:1.55;
+
+    }
+
+    /* ================= VENUE ================= */
+
+    .venueEnglish{
+
+        font-size:18px;
+
+    }
+
+    .venueTelugu{
+
+        font-size:18px;
+
+        line-height:1.55;
+
+    }
+
+}
+
+/* ==========================================================
+        900px
+        TABLET PORTRAIT
+==========================================================*/
+
+@media screen and (max-width:900px) and (orientation:portrait){
+
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
+
+    .cloudLeft{
+
+        left:-10vw;
+
+    }
+
+    .cloudRight{
+
+        right:-10vw;
+
+    }
+
+    .temple{
+
+        bottom:145vh;
+
+    }
+
+    .templeCloud{
+
+        width:31vw;
+
+        top:18%;
+
+        right:-8.5%;
+
+    }
+
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
+
+    .blessings{
+
+        margin-top:-125vh;
+
+    }
+
+    .blessingText{
+
+        bottom:3.5%;
+
+        font-size:1.4rem;
+
+        padding:0 18px;
+
+    }
+
+    /* ==================================================
+                    INVITATION
+    ================================================== */
 
     .invitationContent{
 
@@ -2022,6 +1368,8 @@
 
     }
 
+    /* ================= GANESH ================= */
+
     .ganeshIcon{
 
         width:118px;
@@ -2031,6 +1379,8 @@
         margin-bottom:16px;
 
     }
+
+    /* ================= MANTRA ================= */
 
     .ganeshMantra p{
 
@@ -2048,6 +1398,8 @@
 
     }
 
+    /* ================= INVITATION ================= */
+
     .inviteHeading{
 
         font-size:31px;
@@ -2055,6 +1407,8 @@
         margin-bottom:14px;
 
     }
+
+    /* ================= COUPLE ================= */
 
     .coupleNames{
 
@@ -2073,6 +1427,8 @@
         font-size:26px;
 
     }
+
+    /* ================= BLOCK ================= */
 
     .inviteBlock{
 
@@ -2096,21 +1452,25 @@
 
     }
 
+    /* ================= ENGLISH ================= */
+
     .englishText{
 
         font-size:15px;
 
     }
 
-    .teluguText{
-
-        font-size:17px;
-
-    }
-
     .englishMessage{
 
         font-size:15px;
+
+    }
+
+    /* ================= TELUGU ================= */
+
+    .teluguText{
+
+        font-size:17px;
 
     }
 
@@ -2121,6 +1481,8 @@
         line-height:1.55;
 
     }
+
+    /* ================= VENUE ================= */
 
     .venueEnglish{
 
@@ -2138,13 +1500,275 @@
 
 }
 
-
 /* ==========================================================
-        INVITATION
         768px
+        TABLET LANDSCAPE
 ==========================================================*/
 
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) and (orientation:landscape){
+
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
+
+    .cloudLeft{
+
+        left:-11vw;
+
+    }
+
+    .cloudRight{
+
+        right:-11vw;
+
+    }
+
+    .temple{
+
+        bottom:145vh;
+
+    }
+
+    .templeCloud{
+
+        width:32vw;
+
+        top:16%;
+
+        right:-9%;
+
+    }
+
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
+
+    .blessings{
+
+        margin-top:-120vh;
+
+    }
+
+    .blessingText{
+
+        bottom:4%;
+
+        font-size:1.2rem;
+
+        padding:0 18px;
+
+    }
+
+    /* ==================================================
+                    INVITATION
+    ================================================== */
+
+    .invitationContent{
+
+        top:9%;
+
+        width:68%;
+
+        height:92%;
+
+    }
+
+    /* ================= GANESH ================= */
+
+    .ganeshIcon{
+
+        width:105px;
+
+        margin-top:18px;
+
+        margin-bottom:12px;
+
+    }
+
+    /* ================= MANTRA ================= */
+
+    .ganeshMantra p{
+
+        font-size:13px;
+
+        line-height:1.5;
+
+    }
+
+    .mangalaVakya{
+
+        font-size:16px;
+
+        margin-bottom:14px;
+
+    }
+
+    /* ================= INVITATION ================= */
+
+    .inviteHeading{
+
+        font-size:28px;
+
+        margin-bottom:12px;
+
+    }
+
+    /* ================= COUPLE ================= */
+
+    .coupleNames{
+
+        margin-bottom:18px;
+
+    }
+
+    .coupleNames h1{
+
+        font-size:36px;
+
+    }
+
+    .coupleNames span{
+
+        font-size:22px;
+
+    }
+
+    /* ================= BLOCK ================= */
+
+    .inviteBlock{
+
+        margin-bottom:14px;
+
+    }
+
+    .inviteBlock h3{
+
+        font-size:16px;
+
+        letter-spacing:1px;
+
+    }
+
+    .teluguHeading{
+
+        font-size:16px;
+
+        margin-bottom:8px;
+
+    }
+
+    /* ================= ENGLISH ================= */
+
+    .englishText{
+
+        font-size:14px;
+
+    }
+
+    .englishMessage{
+
+        font-size:14px;
+
+    }
+
+    /* ================= TELUGU ================= */
+
+    .teluguText{
+
+        font-size:16px;
+
+    }
+
+    .teluguMessage{
+
+        font-size:16px;
+
+        line-height:1.5;
+
+    }
+
+    /* ================= VENUE ================= */
+
+    .venueEnglish{
+
+        font-size:16px;
+
+    }
+
+    .venueTelugu{
+
+        font-size:16px;
+
+        line-height:1.5;
+
+    }
+
+}
+
+/* ==========================================================
+        768px
+        TABLET PORTRAIT
+==========================================================*/
+
+@media screen and (max-width:768px) and (orientation:portrait){
+
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
+
+    .cloudLeft{
+
+        left:-11vw;
+
+    }
+
+    .cloudRight{
+
+        right:-11vw;
+
+    }
+
+    .temple{
+
+        bottom:210vh;
+
+    }
+
+    .templeCloud{
+
+        width:32vw;
+
+        top:10%;
+
+        right:-9%;
+
+    }
+
+
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
+
+    .blessings{
+
+        margin-top:-165vh;
+
+    }
+
+    .blessingText{
+
+        bottom:4%;
+
+        font-size:1.2rem;
+
+        padding:0 18px;
+
+    }
+
+
+    /* ==================================================
+                    INVITATION
+    ================================================== */
 
     .invitationContent{
 
@@ -2156,6 +1780,8 @@
 
     }
 
+    /* ================= GANESH ================= */
+
     .ganeshIcon{
 
         width:100px;
@@ -2166,6 +1792,8 @@
 
     }
 
+    /* ================= GANESH MANTRA ================= */
+
     .ganeshMantra p{
 
         font-size:12px;
@@ -2173,6 +1801,8 @@
         line-height:1.45;
 
     }
+
+    /* ================= MANGALA VAAKYAM ================= */
 
     .mangalaVakya{
 
@@ -2182,6 +1812,8 @@
 
     }
 
+    /* ================= INVITATION ================= */
+
     .inviteHeading{
 
         font-size:26px;
@@ -2189,6 +1821,8 @@
         margin-bottom:10px;
 
     }
+
+    /* ================= COUPLE ================= */
 
     .coupleNames{
 
@@ -2207,6 +1841,8 @@
         font-size:20px;
 
     }
+
+    /* ================= BLOCK ================= */
 
     .inviteBlock{
 
@@ -2230,21 +1866,25 @@
 
     }
 
+    /* ================= ENGLISH ================= */
+
     .englishText{
 
         font-size:13px;
 
     }
 
-    .teluguText{
-
-        font-size:15px;
-
-    }
-
     .englishMessage{
 
         font-size:13px;
+
+    }
+
+    /* ================= TELUGU ================= */
+
+    .teluguText{
+
+        font-size:15px;
 
     }
 
@@ -2255,6 +1895,8 @@
         line-height:1.45;
 
     }
+
+    /* ================= VENUE ================= */
 
     .venueEnglish{
 
@@ -2272,84 +1914,127 @@
 
 }
 /* ==========================================================
-        INVITATION
-        576px
+        675px
+        LARGE MOBILE
 ==========================================================*/
 
-/* ==========================================================
-        INVITATION
-        576px
-==========================================================*/
+@media screen and (max-width:675px) and (orientation:portrait){
 
-@media screen and (max-width:576px){
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
+    
+    
+    .cloudLeft{
+
+        left:-9vw;
+        top: 5%;
+
+    }
+
+    .cloudRight{
+
+        right:-10vw;
+
+    }
+
+    .temple{
+
+        bottom:225vh;
+
+    }
+
+    .templeCloud{
+
+        width:33vw;
+
+        top:9.5%;
+
+        right:-9.5%;
+
+    }
+
+
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
+
+    .blessings{
+
+        margin-top:-175vh;
+
+    }
+
+    .blessingText{
+
+        bottom:4%;
+
+        font-size:1.1rem;
+
+        padding:0 16px;
+
+    }
+
+
+    /* ==================================================
+                    INVITATION
+    ================================================== */
 
     .invitationContent{
 
-        top:8%;
+        top:10%;
 
         width:74%;
 
-        height:93%;
+        height:92%;
 
     }
 
-    /* ==========================
-            GANESH
-    ========================== */
+    /* ================= GANESH ================= */
 
     .ganeshIcon{
 
-        width:95px;
+        width:92px;
 
         margin-top:18px;
 
-        margin-bottom:14px;
+        margin-bottom:10px;
 
     }
 
-    /* ==========================
-            GANESH MANTRA
-    ========================== */
+    /* ================= GANESH MANTRA ================= */
 
-    .ganeshMantra{
+    .ganeshMantra p{
 
-        display:none;
+        display: none;
 
     }
 
-    /* ==========================
-            MANGALA VAAKYAM
-    ========================== */
+    /* ================= MANGALA VAAKYAM ================= */
 
     .mangalaVakya{
 
-        font-size:13px;
+        font-size:14px;
 
-        margin-bottom:14px;
+        margin-bottom:12px;
 
     }
 
-    /* ==========================
-            INVITATION
-    ========================== */
+    /* ================= INVITATION ================= */
 
     .inviteHeading{
 
         font-size:24px;
 
-        margin-bottom:10px;
+        margin-bottom:8px;
 
     }
 
-    /* ==========================
-            COUPLE
-    ========================== */
+    /* ================= COUPLE ================= */
 
     .coupleNames{
 
-        margin-bottom:10px;
-
-        gap: 2px;
+        margin-bottom:14px;
 
     }
 
@@ -2357,25 +2042,19 @@
 
         font-size:30px;
 
-        line-height: .95;
-
     }
 
     .coupleNames span{
 
-        font-size:19px;
-
-        margin:2px 0;
+        font-size:18px;
 
     }
 
-    /* ==========================
-            BLOCK
-    ========================== */
+    /* ================= BLOCK ================= */
 
     .inviteBlock{
 
-        margin-bottom:12px;
+        margin-bottom:10px;
 
     }
 
@@ -2387,10 +2066,6 @@
 
     }
 
-    /* ==========================
-            TELUGU HEADING
-    ========================== */
-
     .teluguHeading{
 
         font-size:14px;
@@ -2399,55 +2074,41 @@
 
     }
 
-    /* ==========================
-            ENGLISH
-    ========================== */
+    /* ================= ENGLISH ================= */
 
     .englishText{
 
         font-size:12px;
 
-        line-height:1.45;
-
     }
-
-    /* Hide English Blessing */
 
     .englishMessage{
 
-        display:none;
+        font-size:12px;
 
     }
 
-    /* ==========================
-            TELUGU
-    ========================== */
+    /* ================= TELUGU ================= */
 
     .teluguText{
 
         font-size:14px;
 
-        line-height:1.45;
-
     }
 
     .teluguMessage{
 
-        font-size:15px;
+        font-size:14px;
 
-        line-height:1.55;
+        line-height:1.4;
 
     }
 
-    /* ==========================
-            VENUE
-    ========================== */
+    /* ================= VENUE ================= */
 
     .venueEnglish{
 
         font-size:14px;
-
-        margin-bottom:8px;
 
     }
 
@@ -2455,41 +2116,101 @@
 
         font-size:14px;
 
-        line-height:1.45;
+        line-height:1.4;
 
     }
 
 }
 
-
 /* ==========================================================
-        INVITATION
-        500px
+        576px
+        MOBILE PORTRAIT
 ==========================================================*/
 
-@media screen and (max-width:500px){
+@media screen and (max-width:576px) and (orientation:portrait){
 
-    .invitation{
-        bottom: 5vh;
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
+
+    .heroScene{
+
+        max-height: 300vh;
+
     }
+
+
+    .cloudLeft{
+
+        left:-13vw;
+        top: 5%;
+
+    }
+
+    .cloudRight{
+
+        right:-13vw;
+
+    }
+
+    .temple{
+
+        bottom:245vh;
+
+    }
+
+    .templeCloud{
+
+        width:34vw;
+
+        top:5%;
+
+        right:-10%;
+
+    }
+
+
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
+
+    .blessings{
+
+        margin-top:-145vh;
+
+    }
+
+    .blessingText{
+
+        bottom:4%;
+
+        font-size:1rem;
+
+        padding:0 15px;
+
+    }
+
+
+    /* ==================================================
+                    INVITATION
+    ================================================== */
 
     .invitationContent{
 
-        top:7%;
+        top:9%;
 
-        width:80%;
+        width:82%;
 
         height:93%;
 
     }
 
-    /* ==========================
-            GANESH
-    ========================== */
+
+    /* ================= GANESH ================= */
 
     .ganeshIcon{
 
-        width:82px;
+        width:85px;
 
         margin-top:16px;
 
@@ -2497,29 +2218,17 @@
 
     }
 
-    /* ==========================
-            HIDE
-    ========================== */
 
-    .ganeshMantra,
+    /* ================= GANESH MANTRA ================= */
 
-    .inviteHeading,
-
-    .englishText,
-
-    .englishMessage,
-
-    .venueEnglish,
-
-    .inviteBlock h3{
+    .ganeshMantra{
 
         display:none;
 
     }
 
-    /* ==========================
-            MANGALA VAAKYAM
-    ========================== */
+
+    /* ================= MANGALA ================= */
 
     .mangalaVakya{
 
@@ -2529,13 +2238,21 @@
 
     }
 
-    /* ==========================
-            COUPLE
-    ========================== */
+
+    /* ================= INVITATION ================= */
+
+    .inviteHeading{
+
+        font-size:22px;
+
+        margin-bottom:8px;
+
+    }
+
+
+    /* ================= COUPLE ================= */
 
     .coupleNames{
-
-        gap:4px;
 
         margin-bottom:12px;
 
@@ -2543,9 +2260,7 @@
 
     .coupleNames h1{
 
-        font-size:27px;
-
-        line-height:.95;
+        font-size:28px;
 
     }
 
@@ -2553,13 +2268,238 @@
 
         font-size:17px;
 
-        margin:2px 0;
+    }
+
+
+    /* ================= BLOCK ================= */
+
+    .inviteBlock{
+
+        margin-bottom:10px;
 
     }
 
-    /* ==========================
-            BLOCK
-    ========================== */
+    .inviteBlock h3{
+
+        font-size:13px;
+
+        letter-spacing:1px;
+
+    }
+
+    .teluguHeading{
+
+        font-size:13px;
+
+        margin-bottom:5px;
+
+    }
+
+
+    /* ================= ENGLISH ================= */
+
+    .englishMessage{
+
+        display:none;
+
+    }
+
+    .englishText{
+
+        font-size:11px;
+
+    }
+
+
+    /* ================= TELUGU ================= */
+
+    .teluguText{
+
+        font-size:13px;
+
+    }
+
+    .teluguMessage{
+
+        font-size:13px;
+
+        line-height:1.4;
+
+    }
+
+
+    /* ================= VENUE ================= */
+
+    .venueEnglish{
+
+        font-size:13px;
+
+    }
+
+    .venueTelugu{
+
+        font-size:13px;
+
+        line-height:1.4;
+
+    }
+
+}
+
+/* ==========================================================
+        500px
+        MOBILE PORTRAIT
+==========================================================*/
+
+@media screen and (max-width:500px) and (orientation:portrait){
+
+    /* ==================================================
+                    HERO SCENE
+    ================================================== */
+
+    .heroScene{
+
+        max-height: 300vh;
+
+    }
+
+
+    .cloudLeft{
+
+        left:-14vw;
+        top: 5%;
+
+    }
+
+    .cloudRight{
+
+        right:-14vw;
+
+    }
+
+    .temple{
+
+        bottom:255vh;
+
+    }
+
+    .templeCloud{
+
+        width:35vw;
+
+        top:5%;
+
+        right:-11%;
+
+    }
+
+
+    /* ==================================================
+                    BLESSINGS
+    ================================================== */
+
+    .blessings{
+
+        margin-top:-155vh;
+
+    }
+
+    .blessingText{
+
+        bottom:4%;
+
+        font-size:.95rem;
+
+        padding:0 14px;
+
+    }
+
+
+    /* ==================================================
+                    INVITATION
+    ================================================== */
+
+    .invitation{
+        margin-top: -5vh;
+    }
+
+    .invitationContent{
+
+        top:8%;
+
+        width:88%;
+
+        height:93%;
+
+    }
+
+
+    /* ================= GANESH ================= */
+
+    .ganeshIcon{
+
+        width:75px;
+
+        margin-top:14px;
+
+        margin-bottom:8px;
+
+    }
+
+
+    /* ================= GANESH MANTRA ================= */
+
+    .ganeshMantra{
+
+        display:none;
+
+    }
+
+
+    /* ================= MANGALA ================= */
+
+    .mangalaVakya{
+
+        font-size:12px;
+
+        margin-bottom:8px;
+
+    }
+
+
+    /* ================= INVITATION ================= */
+
+    .inviteHeading{
+
+        font-size:20px;
+
+        margin-bottom:8px;
+
+    }
+
+
+    /* ================= COUPLE ================= */
+
+    .coupleNames{
+
+        margin-bottom:10px;
+
+    }
+
+    .coupleNames h1{
+
+        font-size:25px;
+
+    }
+
+    .coupleNames span{
+
+        font-size:16px;
+
+    }
+
+
+    /* ================= BLOCK ================= */
 
     .inviteBlock{
 
@@ -2567,45 +2507,68 @@
 
     }
 
-    /* ==========================
-            TELUGU
-    ========================== */
+    .inviteBlock h3{
+
+        font-size:12px;
+
+        letter-spacing:1px;
+
+    }
 
     .teluguHeading{
 
-        font-size:15px;
-
-        font-weight:600;
+        font-size:12px;
 
         margin-bottom:4px;
 
     }
 
+
+    /* ================= ENGLISH ================= */
+
+    .englishMessage{
+
+        display:none;
+
+    }
+
+    .englishText{
+
+        display:none;
+
+    }
+
+
+    /* ================= TELUGU ================= */
+
     .teluguText{
 
-        font-size:14px;
-
-        line-height:1.45;
+        font-size:12px;
 
     }
 
     .teluguMessage{
 
-        font-size:15px;
+        font-size:12px;
 
-        line-height:1.5;
+        line-height:1.35;
 
     }
 
-    /* ==========================
-            VENUE
-    ========================== */
+
+    /* ================= VENUE ================= */
+
+    .venueEnglish{
+
+        font-size:12px;
+
+    }
 
     .venueTelugu{
 
-        font-size:14px;
+        font-size:12px;
 
-        line-height:1.4;
+        line-height:1.35;
 
     }
 
