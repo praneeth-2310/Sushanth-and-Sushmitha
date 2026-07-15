@@ -126,5 +126,196 @@ window.addEventListener("keydown", startMusic, { once: true });
 window.addEventListener("click", startMusic, { once: true });
 
 
+
+
+// ======================================================
+// CINEMATIC INVITATION
+// ======================================================
+
+const invitationTL = gsap.timeline({
+
+    scrollTrigger:{
+
+        trigger:".invitation",
+
+        start:"top 65%",
+
+        once:true
+
+    }
+
+});
+
+
+
+// ----------------------------
+// GANESH
+// ----------------------------
+
+invitationTL.from(".ganeshIcon",{
+
+    y:40,
+
+    opacity:0,
+
+    scale:.65,
+
+    rotation:-10,
+
+    duration:.8,
+
+    ease:"back.out(1.8)"
+
+});
+
+// ----------------------------
+// MANTRA
+// ----------------------------
+
+invitationTL.from(".ganeshMantra",{
+
+    y:25,
+
+    opacity:0,
+
+    duration:.5
+
+},"-=.25");
+
+// ----------------------------
+// MANGALA
+// ----------------------------
+
+invitationTL.from(".mangalaVakya",{
+
+    y:20,
+
+    opacity:0,
+
+    duration:.5
+
+},"-=.2");
+
+// ----------------------------
+// HEADING
+// ----------------------------
+
+invitationTL.from(".inviteHeading",{
+
+    y:25,
+
+    opacity:0,
+
+    duration:.6
+
+},"-=.2");
+
+// ----------------------------
+// GROOM
+// ----------------------------
+
+invitationTL.from(".inviteGroom",{
+
+    x:-60,
+
+    opacity:0,
+
+    duration:.7,
+
+    ease:"power3.out"
+
+});
+
+// ----------------------------
+// AMPERSAND
+// ----------------------------
+
+invitationTL.from(".inviteAmp",{
+
+    scale:0,
+
+    rotation:180,
+
+    opacity:0,
+
+    duration:.5,
+
+    ease:"back.out(2)"
+
+},"-=.25");
+
+// ----------------------------
+// BRIDE
+// ----------------------------
+
+invitationTL.from(".inviteBride",{
+
+    x:60,
+
+    opacity:0,
+
+    duration:.7,
+
+    ease:"power3.out"
+
+},"-=.3");
+
+// ----------------------------
+// SUMUHURTHAM
+// ----------------------------
+
+invitationTL.from(".sumuhurthamBlock",{
+
+    y:30,
+
+    opacity:0,
+
+    duration:.5
+
+});
+
+// ----------------------------
+// TIME
+// ----------------------------
+
+invitationTL.from(".timeBlock",{
+
+    y:30,
+
+    opacity:0,
+
+    duration:.5
+
+},"-=.2");
+
+// ----------------------------
+// MESSAGE
+// ----------------------------
+
+invitationTL.from(".messageBlock",{
+
+    y:30,
+
+    opacity:0,
+
+    duration:.5
+
+},"-=.2");
+
+// ----------------------------
+// VENUE
+// ----------------------------
+
+invitationTL.from(".venueBlock",{
+
+    y:30,
+
+    opacity:0,
+
+    duration:.5
+
+},"-=.2");
+
+
 console.log(window.innerWidth);
 console.log(window.innerHeight);

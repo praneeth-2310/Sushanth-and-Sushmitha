@@ -337,3 +337,26 @@
     color:#6A3513;
 
 }
+
+/* ==========================================
+        INVITATION GSAP READY
+========================================== */
+
+.invitationImage,
+.ganeshIcon,
+.ganeshMantra,
+.mangalaVakya,
+.inviteHeading,
+.inviteGroom,
+.inviteAmp,
+.inviteBride,
+.sumuhurthamBlock,
+.timeBlock,
+.messageBlock,
+.venueBlock{
+
+    will-change:transform,opacity;
+
+    backface-visibility:hidden;
+
+}
